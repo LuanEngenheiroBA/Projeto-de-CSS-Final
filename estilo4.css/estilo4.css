@@ -1,0 +1,35 @@
+body{
+    background: black;
+    color: red;
+    font-family: "Playwrite BR Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Rog:hover{
+    opacity: 0.5;
+}
+
+.Nvidia:hover{
+    opacity: 0.2;
+}
+
+.Ryzen:hover{
+    opacity: 0.3;
+}
+
+.Corsair:hover{
+    opacity: 0.4;
+}
+
+a.botão{
+    padding:14px;
+    background: white;
+    color: hotpink;
+    text-decoration: none;
+}
+
+a.botão:hover{
+    opacity: 0.4;
+}
+

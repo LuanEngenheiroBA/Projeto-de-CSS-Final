@@ -1,0 +1,39 @@
+#Tecnologia {
+  width: 100%;
+  height: 444px;
+  background-image: linear-gradient(to right, green 0%, yellow 30%, blue 60%, white 100%);
+}
+ 
+h2{
+  text-shadow: 2px 2px 4px blue;
+}
+
+body {
+  background: yellow;
+}
+
+.Brasil {
+  color: green;
+  text-shadow: 2px 2px 4px green;
+}
+
+.Santander {
+  text-align: center;
+  width: 100%;
+  height: 222px;
+  background: red; 
+  box-shadow: 12px 12px 12px white;
+}
+
+.redution {
+  white-space: nowrap;
+  overflow: hidden;
+  border: 10px solid green;
+  text-overflow: ellipsis;
+  padding-bottom: 22px;
+}
+
+.Santander:hover .redution {
+  white-space: normal;
+
+}

@@ -1,0 +1,164 @@
+/* ==========================================================================
+   1. RESET E CONFIGURAÇÕES GLOBAIS
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d80032; /* Fundo carmesim/vermelho uniforme */
+    font-family: 'Griffy', 'Gill Sans', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   2. HIERARQUIA DE CABEÇALHOS E BORDAS
+   ========================================================================== */
+.titulo-destaque {
+    color: greenyellow;
+    font-size: 24px;
+    border: 4px ridge yellow;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+.subtitulo-secundario {
+    color: darkorange;
+    font-size: 22px;
+    border: 3px dashed salmon;
+    padding: 8px 12px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.subtitulo-terciario {
+    color: #ff007f;
+    font-size: 20px;
+    border: 3px dotted #5c5cff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.subtitulo-quaternario {
+    color: #ffffff;
+    font-size: 18px;
+    border: 3px solid #ffaa00;
+    padding: 8px 12px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.titulo-borda {
+    color: #ff66cc;
+    font-size: 20px;
+    border: 3px solid #000000;
+    padding: 10px;
+    margin: 25px 0 15px 0;
+}
+
+/* ==========================================================================
+   3. PARÁGRAFOS E TEXTOS
+   ========================================================================== */
+p.descricao {
+    color: greenyellow;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+/* ==========================================================================
+   4. LINKS, BOTÕES E CAIXAS DE MEDIDAS
+   ========================================================================== */
+.linha-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.link-terciario {
+    color: #0026ff;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.caixa-medidas {
+    color: greenyellow;
+    font-size: 14px;
+}
+
+
+
+
+/* ==========================================================================
+   5. LISTAS E BLOCOS (DISPLAY FLEX / GRID)
+   ========================================================================== */
+.lista-estudos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.lista-estudos li {
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* Bloco dos cards explicativos */
+.container-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    min-height: 140px;
+    padding: 12px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* Cores dos Temas */
+.item-azul, .card-azul {
+    background-color: #0000ff;
+    color: #000000;
+}
+
+.item-verde, .card-verde {
+    background-color: #008000;
+    color: #000000;
+}
+
+.item-amarelo, .card-amarelo {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+.item-branco, .card-branco {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ==========================================================================
+   6. RODAPÉ
+   ========================================================================== */
+.rodape {
+    margin-top: 30px;
+}
+
+.rodape hr {
+    border: 0;
+    height: 1px;
+    background-color: #000000;
+}

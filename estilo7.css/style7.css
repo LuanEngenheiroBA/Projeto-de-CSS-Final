@@ -1,0 +1,95 @@
+/* ==========================================================================
+   1. ESTILO BASE / MOBILE FIRST (Até 599px - Celulares)
+   ========================================================================== */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: red; /* Fundo base para celular */
+    color: #f5f5f5;
+    transition: background-color .5s ease-in-out, padding .5s ease;
+}
+
+/* Galeria de vídeos (coluna no celular) */
+.galeria-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Propriedades compartilhadas entre os containers de vídeo */
+.video-container,
+.video-2 {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: max-width .5s ease-in-out, width .5s ease-in-out;
+}
+
+.video-container {
+    background-color: darkviolet;
+    box-shadow: 0 6px 20px darkgray;
+}
+
+.video-2 {
+    background-color: #000;
+    box-shadow: 0 6px 20px rgba(0,0,0,.5);
+}
+
+/* Estilos dos vídeos e animações agrupados */
+.video-container video,
+.video-2 video {
+    width: 100%;
+    height: 250px;
+    display: block;
+    border-radius: 8px;
+    border: 4px solid #fff;
+    background-color: #000;
+    transition: transform .3s ease;
+}
+
+.video-container:hover video,
+.video-2:hover video {
+    transform: scale(1.05);
+}
+
+video::-webkit-media-controls {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+
+/* ==========================================================================
+   2. MEDIA QUERIES (Responsividade)
+   ========================================================================== */
+/* Tablets pequenos (>= 600px) - Vídeos lado a lado */
+@media (min-width: 600px) {
+    body { background-color: darkred; }
+    .galeria-videos {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .video-container, .video-2 { max-width: 260px; }
+}
+
+/* Tablets e dispositivos médios (>= 768px) */
+@media (min-width: 768px) {
+    body { background-color: blue; }
+    .video-container, .video-2 { max-width: 300px; }
+}
+
+/* Desktops (>= 992px) */
+@media (min-width: 992px) {
+    body { background-color: yellow; color: #111; }
+    .video-container, .video-2 { max-width: 350px; }
+}
+
+/* Telas grandes / TVs (>= 1200px) */
+@media (min-width: 1200px) {
+    body { background-color: purple; color: #f5f5f5; }
+    .video-container, .video-2 { max-width: 400px; }
+}

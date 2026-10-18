@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+
+body {
+  background: crimson;
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: violet;
+  font-size: 22px;
+  border: 5px groove black;
+  padding-bottom: 4px;
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: aqua;
+  font-size: 23px;
+  border: 5px ridge red;
+  margin-bottom: 22%;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 22px;
+  font-family: "Griffy", system-ui;
+  font-weight: 20px;
+  font-style: normal;
+}
+
+h3 {
+  color: magenta;
+  font-size: 26px;
+  border: 14px double rebeccapurple;
+}
+
+h4 {
+  color: gold;
+  font-size: 30px;
+  border: 10px solid orange;
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color: chartreuse;
+}
+
+.exemplo-back {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  background-image: url("../img/Bandeira\ do\ Brasil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Griffy", system-ui;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.medidas {
+  width: 150px;
+  height: 120px;
+  background: aqua;
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.css1 {
+  background: gold;
+  color: whitesmoke;
+  padding: 22px;
+  text-decoration: none;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+a.css1:hover {
+  background: crimson;
+  padding: 12px;
+  border: 4px solid orange;
+}
+
+li {
+  display: inline;
+}
+
+.azul {
+  background: blue;
+}
+
+.verde {
+  background: green;
+}
+
+.amarelo {
+  background: yellow;
+}
+.branco {
+  background: white;
+}
+
+li {
+  display: inline-block;
+  width: 45%;
+  height: 150px;
+}
+
+div {
+  display: inline-block;
+  width: 22%;
+  height: 150px;
+}
+
+.medidascss{
+  max-width: 500px;
+}
+
+.medidascss2{
+  max-width: 620px;
+}
